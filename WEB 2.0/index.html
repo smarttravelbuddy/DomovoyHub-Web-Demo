@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12100e">
+  <meta name="description" content="Domovoy Hub — локальный журнал показаний счётчиков, квитанций и обслуживания для квартиры и дачи.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Domovoy Hub — домашние показания под рукой">
+  <meta property="og:description" content="Снимайте показания, следите за расходом и сроками поверки. Данные остаются на iPhone.">
+  <meta property="og:image" content="assets/social-preview.svg">
+  <title>Domovoy Hub — журнал домашних счётчиков</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Domovoy Hub",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "iOS 15 or later",
+    "description": "Локальный журнал показаний домашних счётчиков, квитанций и обслуживания."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Domovoy Hub — главная">
+      <span class="brand-mark" aria-hidden="true"><span></span></span>
+      <span>Domovoy Hub</span>
+    </a>
+    <nav aria-label="Основная навигация">
+      <a href="#features">Возможности</a>
+      <a href="#privacy">Приватность</a>
+      <a href="support.html">Поддержка</a>
+    </nav>
+    <a class="header-cta" href="#download">Для iPhone</a>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Домашний щиток в телефоне</p>
+        <h1 id="hero-title">Показания не потеряются между квитанциями.</h1>
+        <p class="hero-lead">Снимайте счётчики, сверяйте расход и держите историю квартиры и дачи в одном локальном журнале.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#download">Узнать о выпуске</a>
+          <a class="text-link" href="#how">Как это работает <span aria-hidden="true">↓</span></a>
+        </div>
+        <ul class="trust-list">
+          <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg>Без аккаунта</li>
+          <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg>Без облака</li>
+          <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg>iOS 15+</li>
+        </ul>
+      </div>
+
+      <div class="instrument" role="img" aria-label="Предпросмотр домашнего щитка Domovoy Hub">
+        <div class="instrument-glow"></div>
+        <div class="phone">
+          <div class="phone-top"><span>9:41</span><span class="phone-sensors" aria-hidden="true"></span></div>
+          <div class="app-strip">
+            <span class="site-chip active">Квартира</span><span class="site-chip">Дача</span><span class="chip-add">+</span>
+          </div>
+          <div class="app-heading">
+            <span>ЩИТОК</span>
+            <h2>Квартира</h2>
+            <p>счёт 42••18 · подача до 25</p>
+          </div>
+          <div class="meter-grid">
+            <article class="meter-card meter-card-wide">
+              <div class="meter-icon water" aria-hidden="true">≈</div>
+              <strong>00247.6</strong>
+              <span>Холодная вода</span>
+              <small>м³ · +4.2 за месяц</small>
+            </article>
+            <article class="meter-card">
+              <div class="meter-icon energy" aria-hidden="true">ϟ</div>
+              <strong>8142</strong>
+              <span>Электричество</span>
+              <small>кВт·ч · снято</small>
+            </article>
+            <article class="meter-card">
+              <div class="meter-icon heat" aria-hidden="true">◉</div>
+              <strong>063.4</strong>
+              <span>Отопление</span>
+              <small>Гкал · отдано</small>
+            </article>
+          </div>
+          <div class="scan-button"><span aria-hidden="true">⌁</span> Снять показание</div>
+          <div class="app-rail">
+            <span class="selected">Объекты</span><span>Журнал</span><span>Заметка</span><span>Сервис</span>
+          </div>
+        </div>
+        <div class="reading-slip" aria-hidden="true">
+          <span>КАДР ПРИНЯТ</span>
+          <strong>008142</strong>
+          <small>Распознано на устройстве</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="meter-tape" aria-label="Поддерживаемые виды счётчиков">
+      <span>ЭЛЕКТРИЧЕСТВО</span><i></i><span>ХОЛОДНАЯ ВОДА</span><i></i><span>ГОРЯЧАЯ ВОДА</span><i></i><span>ГАЗ</span><i></i><span>ОТОПЛЕНИЕ</span>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="section-intro">
+        <p class="eyebrow">Один журнал вместо заметок и фото</p>
+        <h2 id="features-title">От циферблата до годовой сводки.</h2>
+        <p>Domovoy Hub связывает показания, квитанции и обслуживание с конкретным домом и прибором.</p>
+      </div>
+      <div class="feature-ledger">
+        <article>
+          <span class="feature-index">01</span>
+          <div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2M7 12h10M12 7v10"/></svg></div>
+          <div><h3>Считайте с фотографии</h3><p>Наведите камеру на циферблат, квитанцию, шильдик или свидетельство о поверке. Приложение проверит качество кадра и предложит сверить найденные поля.</p></div>
+        </article>
+        <article>
+          <span class="feature-index">02</span>
+          <div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 19V9l8-5 8 5v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Z"/><path d="M9 20v-6h6v6"/></svg></div>
+          <div><h3>Разделите квартиру и дачу</h3><p>У каждого объекта — свои счётчики, лицевые счета, сроки подачи и история. Активный дом всегда виден на верхней полосе щитка.</p></div>
+        </article>
+        <article>
+          <span class="feature-index">03</span>
+          <div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 18V9M9 18V5M14 18v-7M19 18V7M3 21h18"/></svg></div>
+          <div><h3>Замечайте изменения</h3><p>Смотрите расход по месяцам, сравнение с прошлым годом и приблизительную сумму по заданному тарифу. Скачок потребления потребует подтверждения.</p></div>
+        </article>
+        <article>
+          <span class="feature-index">04</span>
+          <div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2M5 4l-2 2M19 4l2 2"/></svg></div>
+          <div><h3>Не пропускайте сроки</h3><p>Локальные напоминания подскажут дату подачи и приближение поверки. Напоминание по прибытии включается отдельно для выбранного дома.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="workflow" id="how" aria-labelledby="workflow-title">
+      <div class="workflow-copy">
+        <p class="eyebrow">Ежемесячный маршрут</p>
+        <h2 id="workflow-title">Снято. Проверено. Отдано.</h2>
+        <p>Три понятных состояния не дают спутать сохранённое показание с уже переданным поставщику.</p>
+      </div>
+      <ol class="workflow-steps">
+        <li><span>1</span><div><strong>Снимите</strong><small>Камерой или вручную</small></div></li>
+        <li><span>2</span><div><strong>Проверьте</strong><small>Расход и сумму</small></div></li>
+        <li><span>3</span><div><strong>Отметьте</strong><small>Когда передадите</small></div></li>
+      </ol>
+    </section>
+
+    <section class="privacy-section" id="privacy" aria-labelledby="privacy-title">
+      <div class="privacy-seal" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><path d="M32 5 53 14v15c0 14-9 24-21 30C20 53 11 43 11 29V14L32 5Z"/><path d="M23 31l6 6 13-14"/></svg>
+      </div>
+      <div>
+        <p class="eyebrow">Локально по умолчанию</p>
+        <h2 id="privacy-title">Ваш домашний журнал остаётся дома.</h2>
+        <p>Адреса, лицевые счета, показания, фотографии и голосовые заметки хранятся в закрытом пространстве приложения на устройстве. Для работы не нужен аккаунт.</p>
+        <a class="text-link" href="privacy.html">Прочитать политику конфиденциальности <span aria-hidden="true">→</span></a>
+      </div>
+      <ul>
+        <li>Распознавание на устройстве</li>
+        <li>Опциональная защита Face ID</li>
+        <li>Нет рекламной сети</li>
+      </ul>
+    </section>
+
+    <section class="section service-story" aria-labelledby="service-title">
+      <div class="service-visual">
+        <div class="service-line"></div>
+        <div class="service-item current"><span>12 ОКТ</span><strong>Поверка</strong><small>Допущен</small></div>
+        <div class="service-item"><span>04 МАР</span><strong>Сверка</strong><small>Совпало</small></div>
+        <div class="service-item"><span>18 ИЮН</span><strong>Замена</strong><small>Старый прибор сохранён</small></div>
+      </div>
+      <div class="service-copy">
+        <p class="eyebrow">История прибора</p>
+        <h2 id="service-title">Обслуживание тоже в журнале.</h2>
+        <p>Записывайте сверки, поверки и замены. Сохраняйте фото акта, номер пломбы и голосовую пометку о визите мастера рядом с нужным счётчиком.</p>
+      </div>
+    </section>
+
+    <section class="download" id="download" aria-labelledby="download-title">
+      <div>
+        <p class="eyebrow">Domovoy Hub для iPhone</p>
+        <h2 id="download-title">Дом помнит каждую цифру.</h2>
+        <p>Приложение готовится к публикации в App Store. Напишите в поддержку, чтобы узнать о выпуске.</p>
+      </div>
+      <a class="button button-light" href="mailto:support@metercounter.app?subject=Domovoy%20Hub%20launch">Узнать о выпуске</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"><span></span></span><span>Domovoy Hub</span></a>
+      <p>Локальный журнал домашних счётчиков для iPhone и iPad.</p>
+    </div>
+    <div class="footer-links">
+      <div><strong>Приложение</strong><a href="#features">Возможности</a><a href="#how">Как работает</a><a href="#download">Выпуск</a></div>
+      <div><strong>Документы</strong><a href="privacy.html">Конфиденциальность</a><a href="terms.html">Условия</a><a href="support.html">Поддержка</a></div>
+    </div>
+    <p class="footer-note">© <span id="year">2026</span> Domovoy Hub. Название разработчика будет добавлено перед публикацией.</p>
+  </footer>
+</body>
+</html>

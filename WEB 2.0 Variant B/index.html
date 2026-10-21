@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12100e">
+  <meta name="description" content="Domovoy Hub — локальный журнал счётчиков, квитанций и обслуживания для квартиры и дачи.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Domovoy Hub — домашний журнал показаний">
+  <meta property="og:description" content="Снимайте показания и храните историю дома на iPhone — без аккаунта и облака.">
+  <meta property="og:image" content="assets/social-preview.svg">
+  <title>Domovoy Hub — домашний журнал показаний</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Domovoy Hub",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "iOS 15 or later",
+    "description": "Локальный журнал показаний домашних счётчиков, квитанций и обслуживания."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="masthead">
+    <a class="wordmark" href="index.html" aria-label="Domovoy Hub — главная">
+      <svg aria-hidden="true" viewBox="0 0 44 44"><path d="M6 38V17L22 6l16 11v21H6Z"/><path d="M15 38V25h14v13M22 6v11"/></svg>
+      <span>DOMOVOY<br>HUB</span>
+    </a>
+    <p class="edition">Домашний журнал<br>Выпуск № 01 / 2026</p>
+    <nav aria-label="Основная навигация">
+      <a href="#inside">Что внутри</a>
+      <a href="#privacy">Приватность</a>
+      <a href="support.html">Поддержка</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="cover" aria-labelledby="cover-title">
+      <div class="cover-title">
+        <p class="kicker">Для квартиры, дома и дачи</p>
+        <h1 id="cover-title">Дом знает<br>каждую<br><em>цифру.</em></h1>
+        <p class="standfirst">Сфотографируйте счётчик. Проверьте показание. Отметьте, когда передали. Вся история — в одном локальном журнале на iPhone.</p>
+        <a class="cta" href="#release">Узнать о выпуске <span aria-hidden="true">↘</span></a>
+      </div>
+
+      <div class="cover-ledger" role="img" aria-label="Пример журнала показаний Domovoy Hub">
+        <div class="ledger-heading">
+          <span>ОБЪЕКТ / 01</span>
+          <span>ОКТЯБРЬ 2026</span>
+        </div>
+        <h2>Квартира</h2>
+        <p class="ledger-address">пр-т Независимости · подача до 25</p>
+        <div class="dial-row">
+          <span class="utility-dot electric"></span>
+          <div><small>ЭЛЕКТРИЧЕСТВО</small><strong>008142</strong></div>
+          <mark>СНЯТО</mark>
+        </div>
+        <div class="dial-row">
+          <span class="utility-dot water"></span>
+          <div><small>ХОЛОДНАЯ ВОДА</small><strong>00247.6</strong></div>
+          <mark class="sent">ОТДАНО</mark>
+        </div>
+        <div class="dial-row">
+          <span class="utility-dot heat"></span>
+          <div><small>ОТОПЛЕНИЕ</small><strong>00063.4</strong></div>
+          <mark>СНЯТО</mark>
+        </div>
+        <div class="ledger-total">
+          <span>ПРОГНОЗ ПО ЖУРНАЛУ</span>
+          <strong>≈ 84,20</strong>
+        </div>
+        <div class="red-stamp">ТОЛЬКО<br>НА УСТРОЙСТВЕ</div>
+      </div>
+
+      <aside class="margin-note">
+        <span>01</span>
+        <p>Никаких таблиц в заметках и фотографий без названия.</p>
+      </aside>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <span>ПОКАЗАНИЯ</span><b>•</b><span>КВИТАНЦИИ</span><b>•</b><span>ПОВЕРКИ</span><b>•</b><span>НАПОМИНАНИЯ</span><b>•</b><span>ИСТОРИЯ</span>
+    </div>
+
+    <section class="manifesto" aria-labelledby="manifesto-title">
+      <p class="section-no">02 / Смысл</p>
+      <div>
+        <h2 id="manifesto-title">Не приложение поставщика.<br><em>Ваш собственный архив.</em></h2>
+        <p>Domovoy Hub не оплачивает счета и не отправляет данные коммунальным службам. Он помогает собрать то, что обычно разбросано: показания, квитанции, сроки поверки, акты и заметки о ремонте.</p>
+      </div>
+    </section>
+
+    <section class="contents" id="inside" aria-labelledby="contents-title">
+      <header>
+        <p class="section-no">03 / Что внутри</p>
+        <h2 id="contents-title">Четыре дела.<br>Один журнал.</h2>
+      </header>
+      <div class="contents-list">
+        <article>
+          <span class="big-no">01</span>
+          <div class="line-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M10 22V10h12M42 10h12v12M54 42v12H42M22 54H10V42M17 32h30M32 17v30"/></svg></div>
+          <h3>Снять</h3>
+          <p>Камера читает циферблат, квитанцию, шильдик и свидетельство. Смазанный или бликующий кадр приложение попросит переснять.</p>
+        </article>
+        <article>
+          <span class="big-no">02</span>
+          <div class="line-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M8 53V27L32 11l24 16v26H8Z"/><path d="M23 53V35h18v18"/></svg></div>
+          <h3>Разложить</h3>
+          <p>Квартира и дача живут отдельно. У каждого объекта — свои приборы, счета, дата подачи и история.</p>
+        </article>
+        <article>
+          <span class="big-no">03</span>
+          <div class="line-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M10 51h44M14 46V29M26 46V17M38 46V35M50 46V23"/></svg></div>
+          <h3>Сверить</h3>
+          <p>Журнал покажет расход, сравнит его с прошлым периодом и оценит сумму по вашему тарифу.</p>
+        </article>
+        <article>
+          <span class="big-no">04</span>
+          <div class="line-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="23"/><path d="M32 18v15l10 6M14 9l-6 6M50 9l6 6"/></svg></div>
+          <h3>Не забыть</h3>
+          <p>Локальные напоминания сообщат о подаче и поверке. Напоминание по прибытии включается только по вашему выбору.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="scan-story" aria-labelledby="scan-title">
+      <div class="scan-copy">
+        <p class="section-no">04 / Камера</p>
+        <h2 id="scan-title">Из снимка —<br>в аккуратную запись.</h2>
+        <p>Перед сохранением вы видите распознанное число, сумму и лицевой счёт. Никакой «магии»: последняя проверка всегда остаётся за вами.</p>
+      </div>
+      <div class="receipt" role="group" aria-label="Пример результата распознавания">
+        <div class="receipt-top"><span>DOMOVOY / SCAN</span><span>19:42</span></div>
+        <p>КАДР ПРИНЯТ<br><small>Лист в фокусе, без блика</small></p>
+        <hr>
+        <dl>
+          <div><dt>Показание</dt><dd>008142</dd></div>
+          <div><dt>Лицевой счёт</dt><dd>42••18</dd></div>
+          <div><dt>Период</dt><dd>10 / 2026</dd></div>
+        </dl>
+        <hr>
+        <strong class="receipt-check">ПРОВЕРЬТЕ КАЖДУЮ ЦИФРУ</strong>
+        <div class="receipt-teeth"></div>
+      </div>
+      <p class="vertical-caption">РАСПОЗНАВАНИЕ НА УСТРОЙСТВЕ</p>
+    </section>
+
+    <section class="archive" aria-labelledby="archive-title">
+      <div class="archive-title">
+        <p class="section-no">05 / История прибора</p>
+        <h2 id="archive-title">Не только<br>показания.</h2>
+      </div>
+      <div class="archive-table">
+        <div class="table-head"><span>ДАТА</span><span>СОБЫТИЕ</span><span>РЕЗУЛЬТАТ</span></div>
+        <div><time datetime="2026-10-12">12.10.26</time><strong>Поверка</strong><span>Допущен</span></div>
+        <div><time datetime="2026-03-04">04.03.26</time><strong>Сверка</strong><span>Совпало</span></div>
+        <div><time datetime="2025-06-18">18.06.25</time><strong>Замена</strong><span>Акт сохранён</span></div>
+        <p>Фотографии актов, номера пломб и голосовые заметки о мастере остаются рядом с нужным прибором.</p>
+      </div>
+    </section>
+
+    <section class="privacy-block" id="privacy" aria-labelledby="privacy-title">
+      <div class="privacy-symbol" aria-hidden="true"><span>LOCAL</span><strong>0</strong><small>облачных аккаунтов</small></div>
+      <div>
+        <p class="section-no">06 / Приватность</p>
+        <h2 id="privacy-title">Локальный архив.<br>Закрытая дверь.</h2>
+        <p>Адреса, лицевые счета, фотографии, записи и голосовые заметки хранятся в пространстве приложения на iPhone. Вход можно закрыть Face ID.</p>
+        <a href="privacy.html">Как обрабатываются данные →</a>
+      </div>
+      <ul>
+        <li>Без регистрации</li>
+        <li>Без рекламной сети</li>
+        <li>Распознавание на iPhone</li>
+      </ul>
+    </section>
+
+    <section class="release" id="release" aria-labelledby="release-title">
+      <p class="section-no">07 / Скоро</p>
+      <h2 id="release-title">Положите дом<br>в надёжный журнал.</h2>
+      <div>
+        <p>Domovoy Hub готовится к публикации в App Store для iPhone и iPad с iOS 15 или новее.</p>
+        <a class="cta cta-dark" href="mailto:support@metercounter.app?subject=Domovoy%20Hub%20launch">Узнать о выпуске <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="wordmark" href="index.html"><svg aria-hidden="true" viewBox="0 0 44 44"><path d="M6 38V17L22 6l16 11v21H6Z"/><path d="M15 38V25h14v13M22 6v11"/></svg><span>DOMOVOY<br>HUB</span></a>
+    <p>Домашний журнал для iPhone и iPad.</p>
+    <nav aria-label="Юридические документы"><a href="privacy.html">Конфиденциальность</a><a href="terms.html">Условия</a><a href="support.html">Поддержка</a></nav>
+    <small>© 2026 Domovoy Hub. Имя разработчика будет добавлено перед публикацией.</small>
+  </footer>
+</body>
+</html>

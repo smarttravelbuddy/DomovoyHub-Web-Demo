@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f8f3"/>
+  <circle cx="930" cy="320" r="285" fill="#eef1ff"/>
+  <circle cx="930" cy="320" r="215" fill="#2457f5"/>
+  <circle cx="930" cy="320" r="120" fill="#416eff" stroke="#fff" stroke-opacity=".35"/>
+  <path d="M885 326 930 288l45 38v51h-90v-51Z" fill="none" stroke="#fff" stroke-width="5"/>
+  <path d="M913 377v-33h34v33" fill="#c9ff4a" stroke="#c9ff4a"/>
+  <g transform="translate(70 55)">
+    <rect width="30" height="30" rx="9" fill="#2457f5" transform="rotate(45 15 15)"/>
+    <circle cx="15" cy="15" r="6" fill="#c9ff4a"/>
+    <text x="45" y="22" font-family="Arial,sans-serif" font-size="24" font-weight="800" fill="#12212d">domovoy</text>
+  </g>
+  <text x="70" y="225" font-family="Arial,sans-serif" font-size="75" font-weight="700" fill="#12212d">
+    <tspan x="70"># 4><0 A2>9</tspan>
+    <tspan x="70" dy="82" fill="#2457f5">A?>:>9=K9 @8B<.</tspan>
+  </text>
+  <text x="74" y="405" font-family="Arial,sans-serif" font-size="24" fill="#62717a">
+    <tspan x="74">!GQBG8:8, :28B0=F88 8 >1A;C6820=85</tspan>
+    <tspan x="74" dy="36">2 >4=>9 ;>:0;L=>9 A8AB5<5.</tspan>
+  </text>
+  <g transform="translate(75 490)">
+    <rect width="190" height="56" rx="17" fill="#2457f5"/>
+    <text x="95" y="35" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">;O iPhone</text>
+  </g>
+  <g transform="translate(755 105)">
+    <rect width="180" height="62" rx="19" fill="#fff" stroke="#d8dfda"/>
+    <circle cx="31" cy="31" r="18" fill="#fff2bd"/>
+    <path d="m34 17-12 18h10l-2 12 12-18H32l2-12Z" fill="none" stroke="#9e6800" stroke-width="2"/>
+    <text x="58" y="27" font-family="Arial,sans-serif" font-size="11" fill="#62717a">-;5:B@8G5AB2></text>
+    <text x="58" y="47" font-family="monospace" font-size="18" font-weight="700" fill="#12212d">8 142</text>
+  </g>
+  <g transform="translate(975 440)">
+    <rect width="170" height="62" rx="19" fill="#fff" stroke="#d8dfda"/>
+    <circle cx="31" cy="31" r="18" fill="#bcdcff"/>
+    <path d="M31 18s-9 10-9 16a9 9 0 0 0 18 0c0-6-9-16-9-16Z" fill="none" stroke="#1765a6" stroke-width="2"/>
+    <text x="57" y="27" font-family="Arial,sans-serif" font-size="11" fill="#62717a">>40</text>
+    <text x="57" y="47" font-family="monospace" font-size="18" font-weight="700" fill="#12212d">247.6</text>
+  </g>
+</svg>

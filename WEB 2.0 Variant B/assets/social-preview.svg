@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4f0e8"/>
+  <rect x="0" y="0" width="34" height="630" fill="#d93224"/>
+  <path d="M70 95H1130M70 535H1130" stroke="#151515" stroke-width="3"/>
+  <g transform="translate(75 34)">
+    <path d="M0 44V19L19 5l19 14v25H0Z" fill="none" stroke="#d93224" stroke-width="3"/>
+    <path d="M12 44V29h14v15M19 5v14" fill="none" stroke="#151515" stroke-width="3"/>
+    <text x="56" y="24" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#151515">DOMOVOY</text>
+    <text x="56" y="43" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#151515">HUB</text>
+  </g>
+  <text x="74" y="210" font-family="Arial,sans-serif" font-size="86" font-weight="900" fill="#151515">
+    <tspan x="74">>< 7=05B</tspan><tspan x="74" dy="86">:064CN F8D@C.</tspan>
+  </text>
+  <text x="77" y="445" font-family="monospace" font-size="20" fill="#68645e">,+ #   / IOS 15+</text>
+  <g transform="translate(825 125) rotate(2)">
+    <rect width="300" height="380" fill="#fffdf8" stroke="#151515" stroke-width="3"/>
+    <rect x="15" y="15" width="270" height="35" fill="#1a57e6"/>
+    <text x="27" y="38" font-family="monospace" font-size="13" fill="#fff">*" /  " </text>
+    <text x="22" y="102" font-family="monospace" font-size="13" fill="#151515">-" '!"</text>
+    <text x="22" y="145" font-family="monospace" font-size="37" font-weight="700" fill="#151515">008142</text>
+    <path d="M20 170H280M20 265H280" stroke="#151515"/>
+    <text x="22" y="205" font-family="monospace" font-size="13" fill="#151515">%/ </text>
+    <text x="22" y="248" font-family="monospace" font-size="37" font-weight="700" fill="#151515">00247.6</text>
+    <g transform="translate(152 292) rotate(-7)">
+      <rect width="126" height="55" fill="none" stroke="#d93224" stroke-width="4"/>
+      <text x="63" y="25" text-anchor="middle" font-family="monospace" font-size="12" font-weight="700" fill="#d93224">",</text>
+      <text x="63" y="42" text-anchor="middle" font-family="monospace" font-size="12" font-weight="700" fill="#d93224"> #!" !"</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#12100e"/>
+  <path d="M92 0v630" stroke="#3a332c"/>
+  <text x="34" y="68" font-family="monospace" font-size="20" fill="#f0a04b">00</text>
+  <text x="34" y="113" font-family="monospace" font-size="8" fill="#a3988c" transform="rotate(90 34 113)"> </text>
+  <g transform="translate(128 55)">
+    <circle cx="17" cy="17" r="16" fill="#241f1b" stroke="#3a332c"/>
+    <rect x="8" y="15" width="3" height="10" rx="1.5" fill="#f0a04b"/>
+    <rect x="15.5" y="9" width="3" height="16" rx="1.5" fill="#f0a04b"/>
+    <rect x="23" y="19" width="3" height="6" rx="1.5" fill="#f0a04b"/>
+    <text x="45" y="23" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f6f1ea">Domovoy Hub</text>
+  </g>
+  <text x="130" y="185" font-family="monospace" font-size="12" fill="#f0a04b">21 "/ / · 18:42</text>
+  <text x="125" y="275" font-family="Arial,sans-serif" font-size="75" font-weight="700" fill="#f6f1ea">
+    <tspan x="125">>< E@0=8B</tspan>
+    <tspan x="125" dy="80">1>;LH5, G5<</tspan>
+    <tspan x="125" dy="80" fill="#f0a04b">F8D@K.</tspan>
+  </text>
+  <text x="130" y="555" font-family="Arial,sans-serif" font-size="20" fill="#a3988c">AB>@8O >4=>3> ?>:070=8O  >B 425@8 4> 0@E820.</text>
+  <g transform="translate(815 95)">
+    <circle cx="160" cy="220" r="210" fill="none" stroke="#3a332c"/>
+    <rect x="20" y="20" width="280" height="400" rx="38" fill="#241f1b" stroke="#51473f" stroke-width="3"/>
+    <rect x="48" y="78" width="224" height="180" rx="16" fill="#0c0b09" stroke="#51473f"/>
+    <text x="65" y="105" font-family="monospace" font-size="9" fill="#a3988c">DOMOVOY / 10.26</text>
+    <g transform="translate(62 140)">
+      <rect width="29" height="58" rx="4" fill="#1a1613" stroke="#3a332c"/><rect x="33" width="29" height="58" rx="4" fill="#1a1613" stroke="#3a332c"/><rect x="66" width="29" height="58" rx="4" fill="#1a1613" stroke="#3a332c"/><rect x="99" width="29" height="58" rx="4" fill="#1a1613" stroke="#3a332c"/><rect x="132" width="29" height="58" rx="4" fill="#1a1613" stroke="#3a332c"/><rect x="165" width="29" height="58" rx="4" fill="#1a1613" stroke="#3a332c"/>
+      <text x="14" y="41" font-family="monospace" font-size="27" fill="#f6f1ea">0</text><text x="47" y="41" font-family="monospace" font-size="27" fill="#f6f1ea">0</text><text x="80" y="41" font-family="monospace" font-size="27" fill="#f6f1ea">8</text><text x="113" y="41" font-family="monospace" font-size="27" fill="#f6f1ea">1</text><text x="146" y="41" font-family="monospace" font-size="27" fill="#f6f1ea">4</text><text x="179" y="41" font-family="monospace" font-size="27" fill="#f6f1ea">2</text>
+    </g>
+    <circle cx="242" cy="350" r="31" fill="none" stroke="#3a332c"/>
+    <circle cx="242" cy="350" r="7" fill="#f0a04b"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#12100e"/>
+  <circle cx="932" cy="285" r="330" fill="#f0a04b" opacity=".1"/>
+  <circle cx="932" cy="285" r="235" fill="none" stroke="#f0a04b" opacity=".28"/>
+  <g transform="translate(775 70)">
+    <rect width="310" height="510" rx="44" fill="#191613" stroke="#50473e" stroke-width="3"/>
+    <rect x="20" y="74" width="270" height="126" rx="18" fill="#241f1b" stroke="#3a332c"/>
+    <text x="38" y="117" fill="#f0a04b" font-family="monospace" font-size="13">%/ </text>
+    <text x="38" y="166" fill="#f6f1ea" font-family="monospace" font-size="39" font-weight="600">00247.6</text>
+    <rect x="20" y="216" width="128" height="130" rx="18" fill="#241f1b" stroke="#3a332c"/>
+    <rect x="162" y="216" width="128" height="130" rx="18" fill="#241f1b" stroke="#3a332c"/>
+    <text x="36" y="292" fill="#f6f1ea" font-family="monospace" font-size="29">8142</text>
+    <text x="178" y="292" fill="#f6f1ea" font-family="monospace" font-size="29">063.4</text>
+    <rect x="20" y="362" width="270" height="54" rx="12" fill="#f0a04b"/>
+    <text x="155" y="396" text-anchor="middle" fill="#21170e" font-family="Arial,sans-serif" font-size="17" font-weight="700">!=OBL ?>:070=85</text>
+  </g>
+  <g transform="translate(80 105)">
+    <g transform="translate(0 4)">
+      <circle cx="22" cy="22" r="21" fill="#241f1b" stroke="#3a332c"/>
+      <rect x="11" y="20" width="4" height="13" rx="2" fill="#f0a04b"/>
+      <rect x="20" y="12" width="4" height="21" rx="2" fill="#f0a04b"/>
+      <rect x="29" y="24" width="4" height="9" rx="2" fill="#f0a04b"/>
+    </g>
+    <text x="62" y="35" fill="#f6f1ea" font-family="Arial,sans-serif" font-size="26" font-weight="700">Domovoy Hub</text>
+    <text x="0" y="145" fill="#f6f1ea" font-family="Arial,sans-serif" font-size="63" font-weight="800">
+      <tspan x="0" dy="0">>:070=8O</tspan>
+      <tspan x="0" dy="70">=5 ?>B5@ONBAO.</tspan>
+    </text>
+    <text x="0" y="340" fill="#aaa096" font-family="Arial,sans-serif" font-size="25">
+      <tspan x="0">>:0;L=K9 6C@=0; AGQBG8:>2, :28B0=F89</tspan>
+      <tspan x="0" dy="38">8 >1A;C6820=8O 4;O :20@B8@K 8 40G8.</tspan>
+    </text>
+  </g>
+</svg>

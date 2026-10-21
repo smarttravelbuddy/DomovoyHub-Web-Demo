@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12100e">
+  <meta name="description" content="Открытый справочник Domovoy Hub — локального журнала домашних счётчиков, квитанций и обслуживания.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Domovoy Hub — системный справочник">
+  <meta property="og:description" content="Как устроен локальный журнал показаний для квартиры и дачи.">
+  <meta property="og:image" content="assets/social-preview.svg">
+  <title>Domovoy Hub — системный справочник</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Domovoy Hub",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "iOS 15 or later",
+    "description": "Локальный журнал показаний домашних счётчиков, квитанций и обслуживания."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Перейти к содержанию</a>
+  <div class="app-shell">
+    <aside class="side-panel">
+      <a class="app-identity" href="index.html" aria-label="Domovoy Hub — обзор">
+        <span class="identity-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><strong>Domovoy Hub</strong><small>системный справочник</small></span>
+      </a>
+
+      <nav class="side-nav" aria-label="Разделы справочника">
+        <a class="active" href="#overview"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg><span>Обзор</span><kbd>01</kbd></a>
+        <a href="#capture"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2M7 12h10M12 7v10"/></svg><span>Съёмка</span><kbd>02</kbd></a>
+        <a href="#ledger"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg><span>Журнал</span><kbd>03</kbd></a>
+        <a href="#service"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M7 3v4M17 3v4M5 7v13h14V7M8 11h3M13 11h3M8 15h3"/></svg><span>Обслуживание</span><kbd>04</kbd></a>
+        <a href="#privacy"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 20 7v6c0 5-3 8-8 10-5-2-8-5-8-10V7l8-4Z"/><path d="m8 13 3 3 5-7"/></svg><span>Приватность</span><kbd>05</kbd></a>
+      </nav>
+
+      <div class="side-status">
+        <span class="status-light"></span>
+        <div><strong>Локальный режим</strong><small>облако не требуется</small></div>
+      </div>
+      <div class="side-links">
+        <a href="support.html">Поддержка</a>
+        <a href="privacy.html">Документы</a>
+      </div>
+      <a class="release-link" href="mailto:support@metercounter.app?subject=Domovoy%20Hub%20launch">Узнать о выпуске <span aria-hidden="true">↗</span></a>
+    </aside>
+
+    <main class="workspace" id="workspace">
+      <header class="workspace-header">
+        <div>
+          <p class="path">DOMOVOY / PUBLIC / OVERVIEW</p>
+          <h1>Открытый щиток</h1>
+        </div>
+        <div class="header-meta">
+          <span>iOS 15+</span>
+          <span>RU · BE · EN</span>
+          <span class="version">v1.0</span>
+        </div>
+      </header>
+
+      <section class="overview-grid" id="overview" aria-labelledby="overview-title">
+        <h2 class="visually-hidden" id="overview-title">Обзор системы Domovoy Hub</h2>
+        <article class="current-site">
+          <div class="panel-head">
+            <span>АКТИВНЫЙ ОБЪЕКТ</span>
+            <span class="demo-label">СХЕМА ИНТЕРФЕЙСА</span>
+          </div>
+          <div class="site-selector" role="group" aria-label="Примеры объектов">
+            <span class="selected">Квартира</span><span>Дача</span><span>+</span>
+          </div>
+          <div class="site-title">
+            <div><p>ЩИТОК</p><h2>Квартира</h2><span>счёт 42••18 · подача до 25</span></div>
+            <div class="due-dial" role="img" aria-label="До подачи четыре дня"><strong>04</strong><small>дня</small></div>
+          </div>
+          <div class="meter-board">
+            <article class="meter-tile water">
+              <span class="meter-symbol"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2S5 10 5 15a7 7 0 0 0 14 0c0-5-7-13-7-13Z"/></svg></span>
+              <small>ХОЛОДНАЯ ВОДА</small>
+              <strong>00247.6</strong>
+              <p>м³ · +4.2 за месяц</p>
+              <span class="meter-state sent">отдано</span>
+            </article>
+            <article class="meter-tile energy">
+              <span class="meter-symbol"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m13 2-8 12h7l-1 8 8-12h-7l1-8Z"/></svg></span>
+              <small>ЭЛЕКТРИЧЕСТВО</small>
+              <strong>008142</strong>
+              <p>кВт·ч · +186</p>
+              <span class="meter-state captured">снято</span>
+            </article>
+            <article class="meter-tile heat">
+              <span class="meter-symbol"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3c2 4-2 5 0 8 1-3 5-4 5-8 4 5 4 9 2 13a8 8 0 0 1-14-1c-1-4 1-7 4-10 0 4 1 5 3 6-1-3 0-5 0-8Z"/></svg></span>
+              <small>ОТОПЛЕНИЕ</small>
+              <strong>00063.4</strong>
+              <p>Гкал · нет отсчёта</p>
+              <span class="meter-state waiting">ожидает</span>
+            </article>
+          </div>
+        </article>
+
+        <article class="system-summary">
+          <div class="panel-head"><span>СОСТОЯНИЕ СИСТЕМЫ</span><span>5 МОДУЛЕЙ</span></div>
+          <dl class="summary-list">
+            <div><dt><i class="dot water"></i>Показания</dt><dd>локально</dd></div>
+            <div><dt><i class="dot energy"></i>Распознавание</dt><dd>на устройстве</dd></div>
+            <div><dt><i class="dot heat"></i>Напоминания</dt><dd>разрешены</dd></div>
+            <div><dt><i class="dot neutral"></i>Аккаунт</dt><dd>не нужен</dd></div>
+            <div><dt><i class="dot neutral"></i>Облако</dt><dd>не используется</dd></div>
+          </dl>
+          <p class="summary-note">Это демонстрация структуры продукта, а не данные реального дома.</p>
+        </article>
+
+        <article class="quick-manual">
+          <div class="panel-head"><span>МАРШРУТ МЕСЯЦА</span><span>3 ШАГА</span></div>
+          <ol>
+            <li><span>01</span><div><strong>Снимите</strong><small>камерой или вручную</small></div></li>
+            <li><span>02</span><div><strong>Проверьте</strong><small>значение и расход</small></div></li>
+            <li><span>03</span><div><strong>Отметьте</strong><small>когда передадите</small></div></li>
+          </ol>
+        </article>
+      </section>
+
+      <section class="module-row" id="capture" aria-labelledby="capture-title">
+        <header class="module-intro">
+          <p class="module-code">MODULE / CAPTURE</p>
+          <h2 id="capture-title">Камера — это вход<br>в домашний журнал.</h2>
+          <p>Циферблат, квитанция, шильдик или свидетельство проходят локальную проверку качества. Значение сохраняется только после подтверждения.</p>
+        </header>
+        <div class="capture-console">
+          <div class="capture-view" aria-hidden="true">
+            <i></i><i></i><i></i><i></i>
+            <span class="scan-beam"></span>
+            <div><small>DETECTED / READING</small><strong>008142</strong><span>confidence · check manually</span></div>
+          </div>
+          <div class="capture-log">
+            <p><span>19:42:01</span> кадр получен</p>
+            <p><span>19:42:02</span> резкость в норме</p>
+            <p><span>19:42:02</span> блик не найден</p>
+            <p class="success"><span>19:42:03</span> число найдено</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="module-row reverse" id="ledger" aria-labelledby="ledger-title">
+        <header class="module-intro">
+          <p class="module-code">MODULE / LEDGER</p>
+          <h2 id="ledger-title">Журнал показывает<br>не число, а контекст.</h2>
+          <p>Разница с прошлым показанием, приблизительная сумма по тарифу и статус передачи собраны в одной строке месяца.</p>
+        </header>
+        <div class="ledger-console">
+          <div class="ledger-head"><span>ОКТЯБРЬ 2026</span><span>КВАРТИРА</span></div>
+          <div class="ledger-row"><span>электричество</span><strong>+186 кВт·ч</strong><em>≈ 31,40</em><mark>СНЯТО</mark></div>
+          <div class="ledger-row"><span>холодная вода</span><strong>+4.2 м³</strong><em>≈ 16,80</em><mark class="done">ОТДАНО</mark></div>
+          <div class="ledger-row dim"><span>отопление</span><strong>—</strong><em>нет данных</em><mark>ОЖИДАЕТ</mark></div>
+          <div class="ledger-total"><span>ПРОГНОЗ ПО ЖУРНАЛУ</span><strong>≈ 48,20</strong></div>
+        </div>
+      </section>
+
+      <section class="module-row" id="service" aria-labelledby="service-title">
+        <header class="module-intro">
+          <p class="module-code">MODULE / SERVICE</p>
+          <h2 id="service-title">Прибор хранит<br>свою биографию.</h2>
+          <p>Сверки, поверки и замены остаются рядом со счётчиком. К записи можно приложить фотографию акта и голосовую пометку.</p>
+        </header>
+        <div class="service-console">
+          <div class="serial-line"><span>ПРИБОР</span><strong>Вода · № 18-2047</strong><em>активен</em></div>
+          <ol>
+            <li><time datetime="2026-10-12">12.10.26</time><span></span><div><strong>Поверка</strong><small>допущен · акт сохранён</small></div></li>
+            <li><time datetime="2026-03-04">04.03.26</time><span></span><div><strong>Сверка</strong><small>показания совпали</small></div></li>
+            <li><time datetime="2024-08-11">11.08.24</time><span></span><div><strong>Установка</strong><small>начало журнала</small></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="privacy-console" id="privacy" aria-labelledby="privacy-title">
+        <div class="privacy-lock" aria-hidden="true">
+          <span class="lock-ring"></span>
+          <svg viewBox="0 0 64 64"><path d="M32 5 54 15v16c0 15-10 25-22 31C20 56 10 46 10 31V15L32 5Z"/><path d="m22 32 7 7 14-17"/></svg>
+        </div>
+        <div>
+          <p class="module-code">SYSTEM / PRIVACY</p>
+          <h2 id="privacy-title">Закрыто по умолчанию.</h2>
+          <p>Адреса, лицевые счета, показания, фотографии и голосовые заметки находятся в приватном хранилище приложения. Облачный аккаунт не создаётся.</p>
+          <a href="privacy.html">Открыть политику конфиденциальности →</a>
+        </div>
+        <dl>
+          <div><dt>OCR</dt><dd>ON DEVICE</dd></div>
+          <div><dt>FACE ID</dt><dd>OPTIONAL</dd></div>
+          <div><dt>AD NETWORK</dt><dd>NONE</dd></div>
+          <div><dt>CLOUD SYNC</dt><dd>NONE</dd></div>
+        </dl>
+      </section>
+
+      <section class="workspace-end" aria-labelledby="end-title">
+        <div>
+          <p class="path">END OF PUBLIC MANUAL</p>
+          <h2 id="end-title">Domovoy Hub готовится к выпуску.</h2>
+        </div>
+        <a href="mailto:support@metercounter.app?subject=Domovoy%20Hub%20launch">Запросить информацию <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <footer>
+        <span>DOMOVOY HUB / PUBLIC SYSTEM</span>
+        <nav aria-label="Юридические документы"><a href="privacy.html">Конфиденциальность</a><a href="terms.html">Условия</a><a href="support.html">Поддержка</a></nav>
+        <small>© <span id="year">2026</span> · имя разработчика будет добавлено перед публикацией</small>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

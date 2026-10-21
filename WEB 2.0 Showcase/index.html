@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e0f12">
+  <meta name="description" content="Интерактивная демонстрация пяти вариантов сайта Domovoy Hub.">
+  <title>Domovoy Hub — 5 направлений сайта</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#preview">Перейти к просмотру</a>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Domovoy Hub Design Review — начало">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><strong>Domovoy Hub</strong><small>Design review · 05 directions</small></span>
+    </a>
+    <div class="review-status"><span></span> Demo workspace</div>
+    <p>Выберите концепцию и сравните её в одинаковых условиях.</p>
+  </header>
+
+  <main class="showcase">
+    <aside class="catalog">
+      <div class="catalog-head">
+        <p>КОНЦЕПЦИИ / 01—05</p>
+        <span>← → для переключения</span>
+      </div>
+
+      <nav class="variant-list" aria-label="Варианты сайта">
+        <button class="variant active" type="button" data-variant="1" aria-current="true">
+          <span class="variant-number">01</span>
+          <span class="variant-swatch swatch-a" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="variant-copy"><strong>Digital Instrument</strong><small>Тёмный продуктовый сайт</small></span>
+          <span class="variant-arrow" aria-hidden="true">↗</span>
+        </button>
+        <button class="variant" type="button" data-variant="2">
+          <span class="variant-number">02</span>
+          <span class="variant-swatch swatch-b" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="variant-copy"><strong>Editorial Ledger</strong><small>Бумажный журнал</small></span>
+          <span class="variant-arrow" aria-hidden="true">↗</span>
+        </button>
+        <button class="variant" type="button" data-variant="3">
+          <span class="variant-number">03</span>
+          <span class="variant-swatch swatch-c" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="variant-copy"><strong>Home Data System</strong><small>Светлый smart-home</small></span>
+          <span class="variant-arrow" aria-hidden="true">↗</span>
+        </button>
+        <button class="variant" type="button" data-variant="4">
+          <span class="variant-number">04</span>
+          <span class="variant-swatch swatch-d" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="variant-copy"><strong>Open Control Room</strong><small>Системный справочник</small></span>
+          <span class="variant-arrow" aria-hidden="true">↗</span>
+        </button>
+        <button class="variant" type="button" data-variant="5">
+          <span class="variant-number">05</span>
+          <span class="variant-swatch swatch-e" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="variant-copy"><strong>One Month Story</strong><small>Иммерсивный сценарий</small></span>
+          <span class="variant-arrow" aria-hidden="true">↗</span>
+        </button>
+      </nav>
+
+      <div class="concept-note">
+        <span id="concept-type">PRODUCT SITE</span>
+        <h1 id="concept-title">Digital Instrument</h1>
+        <p id="concept-description">Кинематографичный тёмный сайт с приборным щитком приложения в центре повествования.</p>
+        <dl>
+          <div><dt>Формат</dt><dd id="concept-format">Лендинг</dd></div>
+          <div><dt>Тема</dt><dd id="concept-theme">Dark</dd></div>
+          <div><dt>Акцент</dt><dd id="concept-accent">Amber</dd></div>
+        </dl>
+      </div>
+    </aside>
+
+    <section class="stage" id="preview" aria-labelledby="stage-title">
+      <div class="stage-toolbar">
+        <div>
+          <span class="stage-index" id="stage-index">01 / 05</span>
+          <h2 id="stage-title">Digital Instrument</h2>
+        </div>
+        <div class="viewport-switch" role="group" aria-label="Размер предпросмотра">
+          <button class="active" type="button" data-viewport="desktop" aria-pressed="true">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            Desktop
+          </button>
+          <button type="button" data-viewport="mobile" aria-pressed="false">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M10 5h4M11 19h2"/></svg>
+            Mobile
+          </button>
+        </div>
+        <div class="stage-actions">
+          <button class="copy-link" type="button" id="copy-link">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-2 2"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l2-2"/></svg>
+            <span>Скопировать ссылку</span>
+          </button>
+          <a class="open-site" id="open-site" href="../WEB%202.0/index.html" target="_blank" rel="noopener">
+            Открыть отдельно
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="browser-frame">
+        <div class="browser-chrome" aria-hidden="true">
+          <div class="traffic"><i></i><i></i><i></i></div>
+          <div class="address"><svg viewBox="0 0 24 24"><path d="M8 11V8a4 4 0 0 1 8 0v3M6 11h12v10H6z"/></svg><span id="address-label">domovoy.local / direction-01</span></div>
+          <span class="chrome-meta">LIVE PREVIEW</span>
+        </div>
+        <div class="viewport desktop" id="viewport">
+          <div class="loading-state" id="loading-state"><span></span><p>Загружаем концепцию…</p></div>
+          <iframe
+            id="site-frame"
+            title="Предпросмотр варианта 1 — Digital Instrument"
+            src="../WEB%202.0/index.html"
+            loading="eager"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="stage-footer">
+        <p><kbd>←</kbd><kbd>→</kbd> концепция</p>
+        <p><kbd>M</kbd> mobile / desktop</p>
+        <p>Все варианты используют одни и те же подтверждённые данные приложения.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Ссылка скопирована</div>
+</body>
+</html>

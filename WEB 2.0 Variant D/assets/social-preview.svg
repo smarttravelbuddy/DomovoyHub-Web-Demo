@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#12100e"/>
+  <rect x="0" y="0" width="255" height="630" fill="#171411"/>
+  <path d="M255 0v630M0 94h255" stroke="#3a332c"/>
+  <g transform="translate(28 27)">
+    <circle cx="20" cy="20" r="19" fill="#241f1b" stroke="#3a332c"/>
+    <rect x="10" y="18" width="3" height="11" rx="1.5" fill="#f0a04b"/>
+    <rect x="18.5" y="11" width="3" height="18" rx="1.5" fill="#f0a04b"/>
+    <rect x="27" y="22" width="3" height="7" rx="1.5" fill="#f0a04b"/>
+    <text x="52" y="18" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f6f1ea">Domovoy Hub</text>
+    <text x="52" y="36" font-family="monospace" font-size="9" fill="#a3988c">SYSTEM MANUAL</text>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="14" fill="#a3988c">
+    <text x="32" y="145">01  17>@</text><text x="32" y="190">02  !JQ<:0</text><text x="32" y="235">03  C@=0;</text><text x="32" y="280">04  1A;C6820=85</text><text x="32" y="325">05  @820B=>ABL</text>
+  </g>
+  <rect x="28" y="537" width="199" height="58" rx="12" fill="#1a1613" stroke="#3a332c"/>
+  <circle cx="51" cy="566" r="5" fill="#7eb6c9"/>
+  <text x="68" y="561" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#f6f1ea">>:0;L=K9 @568<</text>
+  <text x="68" y="577" font-family="Arial,sans-serif" font-size="9" fill="#a3988c">>1;0:> =5 B@51C5BAO</text>
+  <text x="300" y="58" font-family="monospace" font-size="11" fill="#f0a04b">DOMOVOY / PUBLIC / OVERVIEW</text>
+  <text x="300" y="103" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#f6f1ea">B:@KBK9 I8B>:</text>
+  <rect x="300" y="140" width="850" height="438" rx="22" fill="#241f1b" stroke="#3a332c"/>
+  <text x="325" y="173" font-family="monospace" font-size="10" fill="#a3988c">"+ *"</text>
+  <path d="M325 190h800" stroke="#3a332c"/>
+  <rect x="325" y="213" width="92" height="28" rx="14" fill="#f0a04b"/>
+  <text x="371" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#21170e">20@B8@0</text>
+  <text x="325" y="298" font-family="Arial,sans-serif" font-size="46" font-weight="700" fill="#f6f1ea">20@B8@0</text>
+  <text x="325" y="323" font-family="Arial,sans-serif" font-size="12" fill="#a3988c">AGQB 42""18 · ?>40G0 4> 25</text>
+  <g transform="translate(325 355)">
+    <rect width="250" height="176" rx="15" fill="#1a1613" stroke="#3a332c"/>
+    <text x="18" y="89" font-family="monospace" font-size="35" font-weight="600" fill="#f6f1ea">00247.6</text>
+    <text x="18" y="112" font-family="Arial,sans-serif" font-size="11" fill="#7eb6c9">%/ </text>
+    <text x="18" y="134" font-family="Arial,sans-serif" font-size="9" fill="#a3988c"><³ · +4.2 70 <5AOF</text>
+  </g>
+  <g transform="translate(590 355)">
+    <rect width="250" height="176" rx="15" fill="#1a1613" stroke="#3a332c"/>
+    <text x="18" y="89" font-family="monospace" font-size="35" font-weight="600" fill="#f6f1ea">008142</text>
+    <text x="18" y="112" font-family="Arial,sans-serif" font-size="11" fill="#f0a04b">-" '!"</text>
+    <text x="18" y="134" font-family="Arial,sans-serif" font-size="9" fill="#a3988c">:B·G · +186</text>
+  </g>
+  <g transform="translate(855 355)">
+    <rect width="250" height="176" rx="15" fill="#1a1613" stroke="#3a332c"/>
+    <text x="18" y="89" font-family="monospace" font-size="35" font-weight="600" fill="#f6f1ea">00063.4</text>
+    <text x="18" y="112" font-family="Arial,sans-serif" font-size="11" fill="#e07a4a">"</text>
+    <text x="18" y="134" font-family="Arial,sans-serif" font-size="9" fill="#a3988c">:0; · >68405B</text>
+  </g>
+</svg>
