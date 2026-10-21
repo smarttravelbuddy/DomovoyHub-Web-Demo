@@ -132,14 +132,14 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 .swatch-a i:nth-child(1) { width: 30px; height: 38px; right: 4px; bottom: -8px; border: 1px solid #4a4038; border-radius: 8px; background: #241f1b; }
 .swatch-a i:nth-child(2) { width: 7px; height: 7px; top: 8px; left: 8px; border-radius: 50%; background: #f0a04b; }
 .swatch-a i:nth-child(3) { width: 17px; height: 2px; top: 19px; left: 7px; background: #f6f1ea; }
-.swatch-b { background: #f4f0e8; }
-.swatch-b i:nth-child(1) { width: 3px; height: 100%; left: 8px; background: #d93224; }
-.swatch-b i:nth-child(2) { width: 25px; height: 2px; top: 12px; left: 16px; background: #151515; }
-.swatch-b i:nth-child(3) { width: 19px; height: 13px; right: 5px; bottom: 6px; border: 1px solid #1a57e6; }
-.swatch-c { background: #f7f8f3; }
-.swatch-c i:nth-child(1) { width: 29px; height: 29px; right: -5px; bottom: -4px; border-radius: 50%; background: #2457f5; }
-.swatch-c i:nth-child(2) { width: 9px; height: 9px; top: 7px; left: 7px; border-radius: 50%; background: #c9ff4a; }
-.swatch-c i:nth-child(3) { width: 21px; height: 2px; top: 21px; left: 6px; background: #12212d; }
+.swatch-b { background: #12100e; }
+.swatch-b i:nth-child(1) { width: 10px; height: 10px; top: 7px; left: 7px; border: 2px solid #f0a04b; transform: rotate(45deg); }
+.swatch-b i:nth-child(2) { width: 24px; height: 3px; top: 9px; left: 20px; background: #f6f1ea; box-shadow: 0 6px 0 #f6f1ea; }
+.swatch-b i:nth-child(3) { width: 23px; height: 18px; right: 6px; bottom: 5px; border: 1px solid #f6f1ea; background: #241f1b; box-shadow: 4px 4px 0 #7eb6c9; transform: rotate(2deg); }
+.swatch-c { background: #12100e; }
+.swatch-c i:nth-child(1) { width: 35px; height: 35px; right: -5px; bottom: -5px; border-radius: 48% 52% 45% 55%; background: #f0a04b; }
+.swatch-c i:nth-child(2) { width: 13px; height: 13px; right: 7px; bottom: 7px; border: 2px solid #f6f1ea; border-radius: 5px; background: #241f1b; transform: rotate(45deg); }
+.swatch-c i:nth-child(3) { width: 8px; height: 8px; top: 8px; left: 7px; border-radius: 50%; background: #7eb6c9; box-shadow: 10px 8px 0 -2px #e07a4a; }
 .swatch-d { background: #12100e; }
 .swatch-d i:nth-child(1) { width: 13px; height: 100%; left: 0; background: #171411; border-right: 1px solid #3a332c; }
 .swatch-d i:nth-child(2) { width: 27px; height: 16px; top: 7px; left: 17px; border-radius: 4px; background: #241f1b; }
